@@ -1,0 +1,33 @@
+
+/*
+ * FullCalendar
+ */
+ .modal-header{
+     padding: 0px !important;
+ }
+
+ .modal-dialog {
+    max-width: 400px;
+ }
+
+/* aタグの色を修正 */
+.fc-col-header-cell-cushion, .fc-daygrid-day-number{
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+
+/** イベントコンテンツ */
+div .fc-event-main{
+    height:30px !important;
+}
+
+/** イベントタイトル */
+div .fc-event-title-frame{
+    text-align: center;
+    vertical-align: middle;
+}
+div .fc-event-title{
+    height: 30px;
+    line-height: 30px;
+    font-size: 17px;
+}
